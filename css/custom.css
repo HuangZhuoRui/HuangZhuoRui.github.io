@@ -24,3 +24,25 @@
 [data-theme="dark"] #page-header::before {
     background: transparent !important;
 }
+
+
+@font-face {
+    /* Ϊ���������ȡ����(����) */
+    font-family: 'YSHST';
+    /* �����ļ���ַ(��Ի��߾���·��������) */
+    src: url(/font/���������.woff2);
+    /* ����Ӵ���ʽ(�Ӵֶ���) */
+    font-weight: normal;
+    /* ����������ʽ(б��/��б��) */
+    font-style: normal;
+    /* ������ʾ��ʽ */
+    font-display: block;
+}
+
+
+
+/* ��ҳ��ť���� */
+#pagination {
+    width: 100%;
+    margin: auto;
+}
