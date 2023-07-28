@@ -13,7 +13,7 @@
       
       <categories>
           
-          <category> Blog </category>
+          <category> ���ʹ </category>
           
       </categories>
       
@@ -26,7 +26,7 @@
     
     
     <entry>
-      <title>����</title>
+      <title>关于</title>
       <link href="/about/index.html"/>
       <url>/about/index.html</url>
       
@@ -37,7 +37,7 @@
     
     
     <entry>
-      <title>����</title>
+      <title>分类</title>
       <link href="/categories/index.html"/>
       <url>/categories/index.html</url>
       
@@ -48,7 +48,7 @@
     
     
     <entry>
-      <title>����</title>
+      <title>留言</title>
       <link href="/comments/index.html"/>
       <url>/comments/index.html</url>
       
@@ -59,7 +59,7 @@
     
     
     <entry>
-      <title>����</title>
+      <title>友链</title>
       <link href="/link/index.html"/>
       <url>/link/index.html</url>
       
