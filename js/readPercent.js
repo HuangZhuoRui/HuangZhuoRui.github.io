@@ -6,7 +6,19 @@ function percent() {
         result = Math.round(a / b * 100), // ����ٷֱ�
         up = document.querySelector("#go-up") // ��ȡ��ť
 
-    if (result <= 95) { up.childnodes[0].style.display="none" up.childnodes[1].style.display="block" up.childnodes[1].innerhtml="result;" } else var leonus="{" linkcom: e> {
+    if (result <= 95) {
+        up.childNodes[0].style.display = 'none'
+        up.childNodes[1].style.display = 'block'
+        up.childNodes[1].innerHTML = result;
+    } else {
+        up.childNodes[1].style.display = 'none'
+        up.childNodes[0].style.display = 'block'
+    }
+}
+
+
+var leonus = {
+    linkCom: e => {
         var t = document.querySelector(".el-textarea__inner");
         "bf" == e ? (t.value = "```yml\n", t.value += "- name: \n  link: \n  avatar: \n  descr: \n  siteshot: ", t.value += "\n```", t.setSelectionRange(15, 15)) : (t.value = "վ�����ƣ�\nվ���ַ��\nͷ�����ӣ�\nվ��������\nվ���ͼ��", t.setSelectionRange(5, 5)), t.focus()
     },
@@ -42,4 +54,4 @@ function percent() {
             childList: !0
         })
     },
-};</=>
+};
