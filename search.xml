@@ -23,6 +23,25 @@
     
     
     <entry>
+      <title>AMD显卡刷BIOS</title>
+      <link href="/2023/07/29/AMD%E6%98%BE%E5%8D%A1%E5%88%B7BIOS/"/>
+      <url>/2023/07/29/AMD%E6%98%BE%E5%8D%A1%E5%88%B7BIOS/</url>
+      
+        <content type="html"><![CDATA[<h3 id="寻找合适的BIOS"><a href="#寻找合适的BIOS" class="headerlink" title="寻找合适的BIOS"></a>寻找合适的BIOS</h3><p>使用GPU-Z查找BIOS<br><img src="/images/AMD%E6%98%BE%E5%8D%A1%E5%88%B7BIOS/%E6%9F%A5%E6%89%BEBIOS1.jpg" alt="图片"><br>点击显卡名称旁的look up<br>然后在跳转的网页点击DATEBASES&#x3D;&gt;VGA BIOS COLLECTION<br><img src="/images/AMD%E6%98%BE%E5%8D%A1%E5%88%B7BIOS/%E6%9F%A5%E6%89%BEBIOS2.png" alt="图片"><br>然后在此页面查找你自己的显卡BIOS<br><img src="/images/AMD%E6%98%BE%E5%8D%A1%E5%88%B7BIOS/%E6%9F%A5%E6%89%BEBIOS3.png" alt="图片"><br>然后点击download，下载完成的文件我建议取个短点的名字<br><img src="/images/AMD%E6%98%BE%E5%8D%A1%E5%88%B7BIOS/%E6%9F%A5%E6%89%BEBIOS4.png" alt="图片"></p><h3 id="下载刷写程序"><a href="#下载刷写程序" class="headerlink" title="下载刷写程序"></a>下载刷写程序</h3><p>在刚才的页面点击download<br><img src="/images/AMD%E6%98%BE%E5%8D%A1%E5%88%B7BIOS/%E5%88%B7%E5%86%99%E7%A8%8B%E5%BA%8F1.jpg" alt="picure"><br>然后选择BIOS flashing中的AMDVBFlash<br><img src="/images/AMD%E6%98%BE%E5%8D%A1%E5%88%B7BIOS/%E5%88%B7%E5%86%99%E7%A8%8B%E5%BA%8F2.png" alt="picture"><br>点击download<br><img src="/images/AMD%E6%98%BE%E5%8D%A1%E5%88%B7BIOS/%E5%88%B7%E5%86%99%E7%A8%8B%E5%BA%8F3.png" alt="picture"><br>这里为选择下载服务器，这个随便选一个就可以了，下载不了就选其他的<br><img src="/images/AMD%E6%98%BE%E5%8D%A1%E5%88%B7BIOS/%E5%88%B7%E5%86%99%E7%A8%8B%E5%BA%8F4.png" alt="picture"></p><h3 id="开始刷写"><a href="#开始刷写" class="headerlink" title="开始刷写"></a>开始刷写</h3><p>因为厂商一般有BIOS保护，所以我们要使用强刷<br>打开我们下载的文件，为主程序amdvbflashWin创建一个快捷方式<br><img src="/images/AMD%E6%98%BE%E5%8D%A1%E5%88%B7BIOS/%E5%88%B7%E5%86%99BIOS1.png" alt="picture"><br>点击快捷方式右键&#x3D;&gt;属性<br>在目标后添加一段代码</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">-p -f 0 你给BIOS取的名字.rom</span><br></pre></td></tr></table></figure><p><img src="/images/AMD%E6%98%BE%E5%8D%A1%E5%88%B7BIOS/%E5%88%B7%E5%86%99BIOS2.png" alt="picture"><br>点击应用后，点击该快捷方式，右键以管理员权限运行即可<br>如遇错误，那就需要换个BIOS；如果提示刷写完成，请重启电脑的话（软件里是英文，我只是说的中文意思）那就是刷写成功。<br>B站视频链接<a href="https://www.bilibili.com/video/BV1tE411c7Kd/?share_source=copy_web&vd_source=e1776590ff39df365347263a23b62936">点击此处</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 魔改 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>博客搭建疑难杂症</title>
       <link href="/2023/07/29/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E7%96%91%E9%9A%BE%E6%9D%82%E7%97%87/"/>
       <url>/2023/07/29/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E7%96%91%E9%9A%BE%E6%9D%82%E7%97%87/</url>
