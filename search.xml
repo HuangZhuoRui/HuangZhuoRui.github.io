@@ -4,6 +4,44 @@
   
     
     <entry>
+      <title>AMD显卡刷BIOS</title>
+      <link href="/2023/08/02/AMD%E6%98%BE%E5%8D%A1%E5%88%B7BIOS/"/>
+      <url>/2023/08/02/AMD%E6%98%BE%E5%8D%A1%E5%88%B7BIOS/</url>
+      
+        <content type="html"><![CDATA[<h3 id="寻找合适的BIOS"><a href="#寻找合适的BIOS" class="headerlink" title="寻找合适的BIOS"></a>寻找合适的BIOS</h3><p>使用GPU-Z查找BIOS<br><img src="/images/AMD%E6%98%BE%E5%8D%A1%E5%88%B7BIOS/%E6%9F%A5%E6%89%BEBIOS1.jpg" alt="图片"><br>点击显卡名称旁的look up<br>然后在跳转的网页点击DATEBASES&#x3D;&gt;VGA BIOS COLLECTION<br><img src="/images/AMD%E6%98%BE%E5%8D%A1%E5%88%B7BIOS/%E6%9F%A5%E6%89%BEBIOS2.png" alt="图片"><br>然后在此页面查找你自己的显卡BIOS<br><img src="/images/AMD%E6%98%BE%E5%8D%A1%E5%88%B7BIOS/%E6%9F%A5%E6%89%BEBIOS3.png" alt="图片"><br>然后点击download，下载完成的文件我建议取个短点的名字<br><img src="/images/AMD%E6%98%BE%E5%8D%A1%E5%88%B7BIOS/%E6%9F%A5%E6%89%BEBIOS4.png" alt="图片"></p><h3 id="下载刷写程序"><a href="#下载刷写程序" class="headerlink" title="下载刷写程序"></a>下载刷写程序</h3><p>在刚才的页面点击download<br><img src="/images/AMD%E6%98%BE%E5%8D%A1%E5%88%B7BIOS/%E5%88%B7%E5%86%99%E7%A8%8B%E5%BA%8F1.jpg" alt="picure"><br>然后选择BIOS flashing中的AMDVBFlash<br><img src="/images/AMD%E6%98%BE%E5%8D%A1%E5%88%B7BIOS/%E5%88%B7%E5%86%99%E7%A8%8B%E5%BA%8F2.png" alt="picture"><br>点击download<br><img src="/images/AMD%E6%98%BE%E5%8D%A1%E5%88%B7BIOS/%E5%88%B7%E5%86%99%E7%A8%8B%E5%BA%8F3.png" alt="picture"><br>这里为选择下载服务器，这个随便选一个就可以了，下载不了就选其他的<br><img src="/images/AMD%E6%98%BE%E5%8D%A1%E5%88%B7BIOS/%E5%88%B7%E5%86%99%E7%A8%8B%E5%BA%8F4.png" alt="picture"></p><h3 id="开始刷写"><a href="#开始刷写" class="headerlink" title="开始刷写"></a>开始刷写</h3><p>因为厂商一般有BIOS保护，所以我们要使用强刷<br>打开我们下载的文件，为主程序amdvbflashWin创建一个快捷方式<br><img src="/images/AMD%E6%98%BE%E5%8D%A1%E5%88%B7BIOS/%E5%88%B7%E5%86%99BIOS1.png" alt="picture"><br>点击快捷方式右键&#x3D;&gt;属性<br>在目标后添加一段代码</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">-p -f 0 你给BIOS取的名字.rom</span><br></pre></td></tr></table></figure><p><img src="/images/AMD%E6%98%BE%E5%8D%A1%E5%88%B7BIOS/%E5%88%B7%E5%86%99BIOS2.png" alt="picture"><br>点击应用后，点击该快捷方式，右键以管理员权限运行即可<br>如遇错误，那就需要换个BIOS；如果提示刷写完成，请重启电脑的话（软件里是英文，我只是说的中文意思）那就是刷写成功。<br>B站视频链接<a href="https://www.bilibili.com/video/BV1tE411c7Kd/?share_source=copy_web&vd_source=e1776590ff39df365347263a23b62936">点击此处</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 魔改 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>HMS推送安装及优化</title>
+      <link href="/2023/08/02/HMS%E6%8E%A8%E9%80%81/"/>
+      <url>/2023/08/02/HMS%E6%8E%A8%E9%80%81/</url>
+      
+        <content type="html"><![CDATA[<p>此教程默认你已经安装magisk和lsposed框架并获取相应权限</p><h3 id="HMS推送安装"><a href="#HMS推送安装" class="headerlink" title="HMS推送安装"></a>HMS推送安装</h3><p>首先到<a href="https://www.coolapk.com/">酷安</a>安装HMS core<br>          安装thanox（付费软件）<br>然后到lsposed安装HMS Push并在lsposed的HMSPush模块下勾选需要走HMS推送的软件<br><img src="/images/HMS%E6%8E%A8%E9%80%81/HMS%E6%8E%A8%E9%80%81.png" alt="picture"><br>最后重启手机即可</p><h3 id="HMS优化"><a href="#HMS优化" class="headerlink" title="HMS优化"></a>HMS优化</h3><p>打开thanox，在应用管理中找到HMS core<br><img src="/images/HMS%E6%8E%A8%E9%80%81/HMS%E4%BC%98%E5%8C%961.png" alt="picture"><br><img src="/images/HMS%E6%8E%A8%E9%80%81/HMS%E4%BC%98%E5%8C%962.png" alt="picture"><br>向下找到管理板块<br><img src="/images/HMS%E6%8E%A8%E9%80%81/HMS%E4%BC%98%E5%8C%963.png" alt="picture"><br>服务开启<br>HMSCoreService （核心服务）<br>HMSInnerService （保证推送稳定）<br>OpenDeviceIdentifierBindService （推送自启）<br>OobeService （推送自启）<br>新版hms core需开启以下服务保证不闪退<br>HMSStubKitUpdateJobService<br>广播只需开启两项自启<br>OobeOnBootBroadcastReceiver<br>HMSOnBootBroadcastReceiver<br>活动开启<br>JumpActivity （注册）<br>PushEarthquakeActivity （点击拉起应用）<br>TileLongClickJumperActivity （消息弹出）<br>内容提供者开启<br>HMSFrameworkProvider<br>KitProcessAgentCoreProvider<br>ModuleQueryProvider<br>HmsSettingSearchProvider<br>UpdateSettingProvider<br>其他的全部关闭</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 手机优化 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>如何优雅地写一篇博客</title>
       <link href="/2023/08/01/%E5%A6%82%E4%BD%95%E5%86%99%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
       <url>/2023/08/01/%E5%A6%82%E4%BD%95%E5%86%99%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
@@ -14,25 +52,6 @@
       <categories>
           
           <category> 博客 </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>AMD显卡刷BIOS</title>
-      <link href="/2023/07/29/AMD%E6%98%BE%E5%8D%A1%E5%88%B7BIOS/"/>
-      <url>/2023/07/29/AMD%E6%98%BE%E5%8D%A1%E5%88%B7BIOS/</url>
-      
-        <content type="html"><![CDATA[<h3 id="寻找合适的BIOS"><a href="#寻找合适的BIOS" class="headerlink" title="寻找合适的BIOS"></a>寻找合适的BIOS</h3><p>使用GPU-Z查找BIOS<br><img src="/images/AMD%E6%98%BE%E5%8D%A1%E5%88%B7BIOS/%E6%9F%A5%E6%89%BEBIOS1.jpg" alt="图片"><br>点击显卡名称旁的look up<br>然后在跳转的网页点击DATEBASES&#x3D;&gt;VGA BIOS COLLECTION<br><img src="/images/AMD%E6%98%BE%E5%8D%A1%E5%88%B7BIOS/%E6%9F%A5%E6%89%BEBIOS2.png" alt="图片"><br>然后在此页面查找你自己的显卡BIOS<br><img src="/images/AMD%E6%98%BE%E5%8D%A1%E5%88%B7BIOS/%E6%9F%A5%E6%89%BEBIOS3.png" alt="图片"><br>然后点击download，下载完成的文件我建议取个短点的名字<br><img src="/images/AMD%E6%98%BE%E5%8D%A1%E5%88%B7BIOS/%E6%9F%A5%E6%89%BEBIOS4.png" alt="图片"></p><h3 id="下载刷写程序"><a href="#下载刷写程序" class="headerlink" title="下载刷写程序"></a>下载刷写程序</h3><p>在刚才的页面点击download<br><img src="/images/AMD%E6%98%BE%E5%8D%A1%E5%88%B7BIOS/%E5%88%B7%E5%86%99%E7%A8%8B%E5%BA%8F1.jpg" alt="picure"><br>然后选择BIOS flashing中的AMDVBFlash<br><img src="/images/AMD%E6%98%BE%E5%8D%A1%E5%88%B7BIOS/%E5%88%B7%E5%86%99%E7%A8%8B%E5%BA%8F2.png" alt="picture"><br>点击download<br><img src="/images/AMD%E6%98%BE%E5%8D%A1%E5%88%B7BIOS/%E5%88%B7%E5%86%99%E7%A8%8B%E5%BA%8F3.png" alt="picture"><br>这里为选择下载服务器，这个随便选一个就可以了，下载不了就选其他的<br><img src="/images/AMD%E6%98%BE%E5%8D%A1%E5%88%B7BIOS/%E5%88%B7%E5%86%99%E7%A8%8B%E5%BA%8F4.png" alt="picture"></p><h3 id="开始刷写"><a href="#开始刷写" class="headerlink" title="开始刷写"></a>开始刷写</h3><p>因为厂商一般有BIOS保护，所以我们要使用强刷<br>打开我们下载的文件，为主程序amdvbflashWin创建一个快捷方式<br><img src="/images/AMD%E6%98%BE%E5%8D%A1%E5%88%B7BIOS/%E5%88%B7%E5%86%99BIOS1.png" alt="picture"><br>点击快捷方式右键&#x3D;&gt;属性<br>在目标后添加一段代码</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">-p -f 0 你给BIOS取的名字.rom</span><br></pre></td></tr></table></figure><p><img src="/images/AMD%E6%98%BE%E5%8D%A1%E5%88%B7BIOS/%E5%88%B7%E5%86%99BIOS2.png" alt="picture"><br>点击应用后，点击该快捷方式，右键以管理员权限运行即可<br>如遇错误，那就需要换个BIOS；如果提示刷写完成，请重启电脑的话（软件里是英文，我只是说的中文意思）那就是刷写成功。<br>B站视频链接<a href="https://www.bilibili.com/video/BV1tE411c7Kd/?share_source=copy_web&vd_source=e1776590ff39df365347263a23b62936">点击此处</a></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 魔改 </category>
           
       </categories>
       
