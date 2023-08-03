@@ -154,3 +154,20 @@ div#archive {
 [data-theme="dark"] #welcome-info {
     background: #212121;
 }
+
+
+
+/* ������Ϣ��Ƭ����ͼ */
+[data-theme="light"] #aside-content > .card-widget.card-info {
+    background-image: url(/images/��ֽ/2.png);
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+    background-size: 100%;
+}
+
+[data-theme="dark"] #aside-content > .card-widget.card-info {
+    background-image: url(/images/��ֽ/2.png);
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+    background-size: 100%;
+}
