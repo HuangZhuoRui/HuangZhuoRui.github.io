@@ -94,6 +94,17 @@
     
     
     <entry>
+      <title>分类</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>留言</title>
       <link href="/comments/index.html"/>
       <url>/comments/index.html</url>
@@ -121,17 +132,6 @@
       <url>/css/readPercent.css</url>
       
         <content type="html"><![CDATA[/* ���ض��� */button#go-up #percent {    display: none;    font-weight: bold;    font-size: 15px !important;}button#go-up span {    font-size: 12px !important;    margin-right: -1px;}/* ��껬������ť��ʱ��ʾ���ض���ͼ�� */button#go-up:hover i {    display: block !important;}button#go-up:hover #percent {    display: none !important;}/* ����������ť *//* ������д��ʽ */.addBtn {    display: flex;    justify-content: center;    flex-wrap: wrap;}    .addBtn button {        transition: .2s;        display: flex;        margin: 5px auto;        color: var(--global-bg);        padding: 15px;        border-radius: 40px;        background: var(--search-result-title);        align-items: center;    }button {    padding: 0;    outline: 0;    border: none;    background: 0 0;    cursor: pointer;    touch-action: manipulation;}.fa-solid, .fas {    font-family: "Font Awesome 6 Free";    font-weight: 900;}.addBtn i {    font-size: 1.3rem;    margin-right: 10px;}.addBtn button:hover {    background: var(--theme-color);    color: #fff;}]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>分类</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
